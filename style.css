@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif
+}
+
+/* Start Top Yellow Section */
+header .top {
+    background-color: yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px
+}
+
+/* End Top Yellow Section */
+
+/* Start Slider Section */
+header .slider {
+    color: #FFF;
+    background-color: #1abc9c;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .slider h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+header .slider p {
+    font-size: 18px;
+}
+
+header .slider p::first-letter {
+    text-transform: capitalize
+}
+
+header .slider p span {
+    font-weight: bold
+}
+
+/* End Slider Section */
+
+/* Start Navbar Section */
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px
+}
+
+nav ul li:hover {
+    background-color: #BBB;
+    color: #000
+}
+
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* End Navbar */
+
+/* Start About Me Section*/
+
+.contant {
+    display: flex;
+    flex-wrap: nowrap
+}
+
+aside {
+    background-color: #f1f1f1;
+    padding: 70px 20px 10px 10px
+}
+
+aside section.about {
+    margin-bottom: 20px
+}
+
+aside section.about h2 {
+    text-transform: capitalize;
+    margin-bottom: 30px
+}
+
+aside section.about > p:first-of-type {
+    font-weight: bold;
+    text-transform: capitalize
+}
+
+aside section.about div {
+    height: 20vh;
+    background-color: #AAAA;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/* End About Me Section*/
+
+/* Start More Section */
+
+aside section.more h2 {
+    text-transform: capitalize;
+    margin-bottom: 30px
+}
+
+aside section.more > p {
+    margin-bottom: 20px
+}
+
+aside section.more div {
+    padding: 20px;
+    background-color: #AAA;
+    margin-bottom: 20px;
+    text-transform: capitalize
+}
+
+/*Start articles Section*/
+
+.articles {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 20px 0px 20px
+}
+
+.articles article:first-of-type {
+    margin-bottom: 30px
+}
+
+.articles h2 {
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 30px
+}
+
+.articles p {
+    margin-bottom: 10px
+}
+
+.articles article > p:first-of-type {
+    font-weight: bold
+}
+
+.articles article > div {
+    height: 20vh;
+    background-color: #AAAA;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/* End Article Section */
+
+/* Start Footer Section */
+
+footer {
+    height: 20vh;
+    background-color: #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize
+}
+
+@media (min-width: 700px) {
+
+    .contant {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: row
+    }
+}
